@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Account /> should render the Account Component correctly 1`] = `
+<Layout
+  pageHeading="Account"
+>
+  <AccountTransaction
+    transactionType="Accounts"
+  />
+</Layout>
+`;

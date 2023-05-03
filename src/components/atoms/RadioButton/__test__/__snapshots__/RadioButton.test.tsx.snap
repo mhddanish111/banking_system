@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioButton /> should render the Heading Component correctly 1`] = `
+<div
+  className=""
+  key="test"
+>
+  <label
+    className="radio"
+    htmlFor="test"
+  >
+    <input
+      aria-checked={true}
+      aria-label="radio-btn"
+      checked={true}
+      className="radio-button"
+      id="test"
+      name="test"
+      onChange={[Function]}
+      tabIndex={0}
+      type="radio"
+      value="test"
+    />
+    <div
+      className="radio-wrapper"
+    >
+      <div
+        className="outerCircle"
+      >
+        <div
+          className="innerCircle"
+        />
+      </div>
+    </div>
+    <span
+      className="radio-button-label"
+    >
+      <div />
+    </span>
+  </label>
+</div>
+`;

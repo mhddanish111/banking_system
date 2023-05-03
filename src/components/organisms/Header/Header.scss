@@ -1,0 +1,88 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/breakpoints.scss';
+@import '../../../styles/mixins.scss';
+header {
+	height: 70px;
+	width: 100vw;
+	padding: 0 30px;
+	background-color: $background-color_2;
+	position: fixed;
+	z-index: 100;
+	box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	font-size: 27px;
+	font-weight: 600;
+	color: $color_1;
+    @include mobile {
+        font-size: 20px;
+    }
+}
+.icn {
+	height: 30px;
+}
+.hamburger {
+	@include desktop {
+		display: none;
+	}
+}
+.hamburger-icon {
+	cursor: pointer;
+    @include mobile {
+        height: 25px;
+    }
+}
+
+.user-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	position: relative;
+	cursor: pointer;
+}
+.logo-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+    @include mobile {
+        width: 100%;
+		justify-content: space-between;
+    }
+}
+
+.user-icn {
+	height: 42px;
+	border-radius: 50%;
+}
+.my-account-dropdown {
+	position: relative;
+	display: inline-block;
+	&:hover {
+		.my-account-dropdown-content {
+			display: block;
+			right: 0;
+		}
+	}
+}
+.my-account-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: $color-white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	a {
+		color: $color-black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		&:hover {
+			background-color: $color-gray-30;
+		}
+	}
+}

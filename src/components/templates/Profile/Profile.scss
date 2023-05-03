@@ -1,0 +1,22 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/fonts.scss";
+@import "../../../styles/mixins.scss";
+@import "../../../styles/spacing.scss";
+.profile-container {
+  display: flex;
+  background-color: $background-color_2;
+  padding: 20px;
+  .profile-box {
+    @include desktop {
+      margin: $space-s;
+    }
+    @include tablet-and-under {
+        margin-top: $space-s;
+    }
+    word-wrap: break-word;
+  }
+
+  label {
+    font-weight: $font-weight-bold;
+  }
+}

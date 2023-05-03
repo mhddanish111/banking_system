@@ -1,0 +1,91 @@
+@import './boarder.scss';
+@import './colors.scss';
+@import './mixins.scss';
+html {
+  @include font-body;
+  font-size: 16px;
+
+  &[lang="zh"],
+  &[lang="zh-CN"] {
+    font-family: $zh-font-stack;
+  }
+
+  &[lang="ja-JP"],
+  &[lang="ja"] {
+    font-family: $ja-font-stack;
+  }
+}
+
+body {
+  margin: 0 0 0 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1 {
+  @include font-h1;
+}
+
+h2 {
+  @include font-h2;
+}
+
+h3 {
+  @include font-h3;
+}
+
+h4,
+h5,
+h6 {
+  @include font-h4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type='text']::-ms-clear {
+  display: none;
+}
+input[type='email']::-ms-clear {
+  display: none;
+}
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none;
+}
+
+input {
+  width: 100%;
+  border-radius: 4px;
+  border: $border-medium;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: $color-white;
+}
+
+select {
+  width: 100%;
+  border-radius: 4px;
+  border: $border-medium;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: $color-white;
+}
+
+a {
+  @include font-body;
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    color: $color-link-hover;
+    transition: $hover-transition;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

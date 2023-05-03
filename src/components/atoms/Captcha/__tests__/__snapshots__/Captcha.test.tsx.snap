@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Captcha /> should render correctly 1`] = `
+<AsyncScriptLoader(ReCAPTCHA)
+  onChange={[Function]}
+  sitekey="6Lc7_dsjAAAAAPAvV1UPgFBBQ3VSoGxZcx3y-uDg"
+/>
+`;

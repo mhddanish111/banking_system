@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateAccount /> should render the CreateAccount Component correctly 1`] = `
+<Layout
+  pageHeading="Open Account"
+>
+  <EmptyDashboard />
+</Layout>
+`;

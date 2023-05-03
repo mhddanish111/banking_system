@@ -1,0 +1,13 @@
+@import './colors.scss';
+/* Borders   */
+$border-light: 1px solid $color-border-light;
+$border-medium: 1px solid $color-border-medium;
+$border-dark: 1px solid $color-border-dark;
+$border-radius: 0.25em;
+$border-focus: 1px solid $color-focus;
+$box-shadow-focus: 0px 0px 0px 1px $color-focus;
+$box-shadow-transparent: 0px 0px 0px 1px transparent;
+
+// Animation
+$hover-transition: all 0.25s ease;
+$fade-transition: opacity 0.5s ease;

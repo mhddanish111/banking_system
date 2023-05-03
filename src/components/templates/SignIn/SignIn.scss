@@ -1,0 +1,33 @@
+@import '../../../styles/boarder.scss';
+@import '../../../styles/spacing.scss';
+@import '../../../styles/mixins.scss';
+.sign-in {
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+.sign-in-container {
+    border: $border-medium;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-focus;
+    height: 500px;
+    width: 40%;
+    margin-top: 5%;
+    @include mobile {
+        width: 80%;
+    }
+    @include tablet {
+        width: 60%;
+    }
+    .error-message-container{
+        margin: 0 ($space-l - $space-xxs);
+    }
+}
+
+.sign-in-heading {
+    display: flex;
+    justify-content:flex-start;
+    margin: $space-xxs;
+    padding: $space-xxs;
+}

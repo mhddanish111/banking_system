@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should render the Pagination Component correctly 1`] = `
+<ul
+  className="pagination-container "
+>
+  <li
+    className="pagination-item disabled arrow-left"
+    key="arrow-left"
+    onClick={[Function]}
+  >
+    <div
+      className="arrow left"
+    />
+  </li>
+  <li
+    className="pagination-item selected"
+    key="pagination-item-1"
+    onClick={[Function]}
+  >
+    1
+  </li>
+  <li
+    className="pagination-item "
+    key="pagination-item-2"
+    onClick={[Function]}
+  >
+    2
+  </li>
+  <li
+    className="pagination-item "
+    key="pagination-item-3"
+    onClick={[Function]}
+  >
+    3
+  </li>
+  <li
+    className="pagination-item "
+    key="pagination-item-4"
+    onClick={[Function]}
+  >
+    4
+  </li>
+  <li
+    className="pagination-item "
+    key="pagination-item-5"
+    onClick={[Function]}
+  >
+    5
+  </li>
+  <li
+    className="pagination-item  arrow-right"
+    key="arrow-right"
+    onClick={[Function]}
+  >
+    <div
+      className="arrow right"
+    />
+  </li>
+</ul>
+`;

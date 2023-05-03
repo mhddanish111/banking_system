@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInForm /> should render the SignInForm Component correctly 1`] = `
+<form
+  aria-label="sign in form"
+  autoComplete="off"
+  className="sign-in-form"
+  name="sign-in-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-input"
+  >
+    <label
+      aria-label="user id"
+      htmlFor="userId"
+    >
+      User ID
+    </label>
+    <input
+      autoComplete="off"
+      id="userId"
+      name="user"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-input"
+  >
+    <label
+      aria-label="password"
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      autoComplete="off"
+      id="password"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="password"
+    />
+  </div>
+  <div
+    className="form-action"
+  >
+    <Button
+      type="submit"
+    >
+      Sign In
+    </Button>
+  </div>
+  <div>
+    <Link
+      to="/sign-up"
+    >
+      Create Account
+    </Link>
+  </div>
+</form>
+`;

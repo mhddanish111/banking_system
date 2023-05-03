@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the Title Component correctly 1`] = `
+<button
+  aria-label="button"
+  className=""
+  disabled={false}
+  onClick={[MockFunction]}
+  type="submit"
+>
+  submit
+</button>
+`;

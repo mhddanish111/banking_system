@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountDashboard /> should render the Title Component correctly 1`] = `
+<div
+  className="row account-dashboard-container"
+>
+  <section
+    className="col-xs-12"
+    id="account-section"
+  >
+    <Heading
+      HeadingType="h2"
+      ariaLabel="account heading"
+      className="col-xs-12"
+    >
+      Accounts
+    </Heading>
+    <div
+      className="col-xs-12 account-container"
+    >
+      <AccountTiles
+        accounts={
+          Object {
+            "_id": "63c1519e9919f0f41a86bd94",
+            "accountNumber": 123456789,
+            "accountType": "Savings Account",
+            "amount": 10000,
+            "categoryName": "Regular Account",
+            "charge": 0,
+            "debitCardCSVNumber": 123,
+            "debitCardNumber": 12312313123,
+            "expiryMonth": 1,
+            "expiryYear": 2023,
+            "limit": 0,
+            "maxAmount": 0,
+            "minAmount": 0,
+            "type": "Accounts",
+            "users": Array [
+              Object {
+                "_id": "63c1519e9919f0f41a86bd94",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            ],
+          }
+        }
+        key="account-tiles-0"
+      />
+    </div>
+  </section>
+  <section
+    className="col-xs-12 card-section"
+    id="account-section"
+  >
+    <Heading
+      HeadingType="h2"
+      ariaLabel="account heading"
+      className="col-xs-12"
+    >
+      Credit Cards
+    </Heading>
+    <div
+      className="col-xs-12 account-container"
+    >
+      <CardTiles
+        cards={
+          Object {
+            "_id": "12345",
+            "accountNumber": 123456789,
+            "accountType": "Savings Account",
+            "amount": 10000,
+            "categoryName": "Regular Account",
+            "charge": 0,
+            "debitCardCSVNumber": 123,
+            "debitCardNumber": 12312313123,
+            "expiryMonth": 1,
+            "expiryYear": 2023,
+            "limit": 0,
+            "maxAmount": 0,
+            "minAmount": 0,
+            "type": "Accounts",
+            "users": Array [
+              Object {
+                "_id": "12345",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            ],
+          }
+        }
+        key="account-tiles-0"
+      />
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,39 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/boarder.scss';
+@import '../../../styles/spacing.scss';
+@import '../../../styles/mixins.scss';
+@import '../../../styles/size.scss';
+@import '../../../styles/fonts.scss';
+button {
+    @include font-body;
+    border: none;
+    background-color: $color-link;
+    border-radius: $border-radius;
+    color: $color-font-light;
+    height: $height-medium;
+    padding: 0 $space-l;
+    text-transform: uppercase;
+    line-height: $line-height-button;
+    &.active {
+      outline: none;
+    }
+    &:hover {
+      background-color: $color-link-hover;
+      transition: $hover-transition;
+      box-shadow: none;
+      cursor: pointer;
+    }
+    &:disabled {
+      background-color: $color-disabled;
+      cursor: default;
+    }
+    &.dark {
+      background: transparent;
+      border: 1px solid $color-white;
+      &:hover {
+        background-color: $color-white;
+        color: $color-font-medium;
+        transition: $hover-transition;
+      }
+    }
+  }

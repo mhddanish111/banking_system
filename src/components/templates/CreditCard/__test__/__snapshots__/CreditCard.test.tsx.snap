@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreditCard /> should render the CreditCard Component correctly 1`] = `
+<Layout
+  pageHeading="Credit Card"
+>
+  <AccountTransaction
+    transactionType="Cards"
+  />
+</Layout>
+`;

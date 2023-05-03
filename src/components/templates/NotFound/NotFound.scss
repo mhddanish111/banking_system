@@ -1,0 +1,10 @@
+@import '../../../styles/spacing.scss';
+.not-found {
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        margin-top: $space-l;
+    }
+}

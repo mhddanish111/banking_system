@@ -1,0 +1,73 @@
+/* COLORS */
+
+/* Primary Blue */
+$color-blue-10: desaturate(lighten(#0077bb, 58), 20);
+$color-blue-20: desaturate(lighten(#0077bb, 50), 20);
+$color-blue-30: desaturate(lighten(#0077bb, 30), 20);
+$color-blue-50: #0077bb;
+$color-blue-70: darken(#0077bb, 10%);
+
+/* Secondary Teal */
+$color-teal-10: desaturate(lighten(#0f7f85, 67), 17);
+$color-teal-20: desaturate(lighten(#0f7f85, 50), 20);
+$color-teal-30: lighten(#0f7f85, 10%);
+$color-teal-50: #0f7f85;
+$color-teal-70: darken(#0f7f85, 10%);
+
+/* Grayscale */
+$color-white: #fff;
+$color-gray-10: adjust_hue(saturate(lighten(#4f5b64, 61), 3), -15);
+$color-gray-20: lighten(#4f5b64, 55%);
+$color-gray-30: lighten(#4f5b64, 45%);
+$color-gray-40: lighten(#4f5b64, 30%);
+$color-gray-50: #4f5b64;
+$color-black: darken(#4f5b64, 15%);
+
+/* Red */
+$color-red-10: #fef6f8;
+$color-red-20: #fbc6cf;
+$color-red-50: #e60f33;
+
+/* Color Use-specific */
+$color-font-dark: $color-black;
+$color-font-medium: $color-gray-50;
+$color-font-light: $color-white;
+$color-link: $color-blue-50;
+$color-link-hover: $color-blue-70;
+$color-link-visited: $color-blue-70;
+$color-accent: $color-teal-30;
+$color-border-light: $color-gray-20;
+$color-border-medium: $color-gray-30;
+$color-border-dark: $color-gray-40;
+$color-border-rule: $color-gray-20;
+$color-border-accent: $color-teal-30;
+$color-icon: $color-gray-50;
+$color-success: $color-teal-30;
+$color-error: $color-red-50;
+$color-disabled: $color-gray-40;
+$color-focus: $color-blue-30;
+$color-videothumbnail-overlay: #2d3439;
+$color-background-light: $color-gray-10;
+$color-background-dark: $color-gray-50;
+$color-background-accent-primary: $color-blue-50;
+$color-background-accent-secondary: $color-teal-50;
+$border-link: $color-blue-50;
+$border-link-hover: $color-teal-70;
+$border-disabled: $color-gray-50;
+$border-light: $color-white;
+
+$background-color1: #fafaff;
+$background-color2: #ffffff;
+$background-color3: #ededed;
+$background-color4: #cad7fda4;
+$color_1: rgb(47, 141, 70);
+$color_3: #5500cb;
+$font-family_1: "Poppins", sans-serif;
+$background-color_1: $background-color4;
+$background-color_2: $background-color1;
+$background-color_3: $background-color3;
+$background-color_7: #9e9e9eb2;
+$background-color_8: $background-color2;
+$background-color_9: #dadada;
+$background-color_10: var(--Border-color);
+

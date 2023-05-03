@@ -1,0 +1,33 @@
+@import "../../../styles/colors.scss" ;
+@import "../../../styles/spacing.scss";
+@import "../../../styles/boarder.scss";
+.transaction-container {
+  margin-top: $space-l;
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: scroll;
+    margin-top: $space-s;
+    border: $border-dark;
+    thead {
+      border: $border-dark;
+    }
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: $color-white;
+    }
+  }
+  .transaction-table-container {
+    overflow-x: auto;
+  }
+  .pagination {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountOpen /> should render the AccountOpen Component correctly 1`] = `
+<Layout
+  pageHeading="Open Account"
+>
+  <AccountOpenForm
+    type="Accounts"
+  />
+</Layout>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> should render the NotFound Component correctly 1`] = `
+<div
+  className="not-found"
+>
+  <Header
+    isDefault={false}
+  />
+  <main
+    className="main-container"
+  >
+    <p>
+      404 Page Not Found !
+    </p>
+  </main>
+</div>
+`;

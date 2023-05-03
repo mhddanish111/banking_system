@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountDetails /> should render the Title Component correctly 1`] = `
+<div
+  className="col-xs-12 details-container"
+>
+  <div
+    className="row account-details-box"
+  >
+    <label
+      className="col-xs-6"
+    >
+      Accounts
+    </label>
+    <div
+      className="col-xs-6 profile-text"
+    >
+      Regular Account
+    </div>
+  </div>
+  <div
+    className="row account-details-box"
+  >
+    <label
+      className="col-xs-6"
+    >
+      Accounts Holder Name
+    </label>
+    <div
+      className="col-xs-6 profile-text"
+    >
+      test test
+    </div>
+  </div>
+  <div
+    className="row account-details-box"
+  >
+    <label
+      className="col-xs-6"
+    >
+      Accounts Number
+    </label>
+    <div
+      className="col-xs-6 profile-text"
+    >
+      123456789
+    </div>
+  </div>
+  <div
+    className="row account-details-box"
+  >
+    <label
+      className="col-xs-6"
+    >
+      Available Amount
+    </label>
+    <div
+      className="col-xs-6 profile-text"
+    >
+      10000
+    </div>
+  </div>
+</div>
+`;

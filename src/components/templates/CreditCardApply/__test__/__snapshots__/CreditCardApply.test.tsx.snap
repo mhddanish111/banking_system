@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreditCardApply /> should render the CreditCardApply Component correctly 1`] = `
+<Layout
+  pageHeading="Apply Credit Card"
+>
+  <AccountOpenForm
+    type="Cards"
+  />
+</Layout>
+`;

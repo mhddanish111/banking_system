@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectDropdown /> should render the SelectDropdown Component correctly 1`] = `
+<Fragment>
+  <label
+    htmlFor="test"
+  >
+    test
+  </label>
+  <select
+    aria-label="select dropdown"
+    className="select-dropdown "
+    id="test"
+    name="test"
+    onChange={[MockFunction]}
+    value="test"
+  >
+    <option
+      value=""
+    >
+      Select
+    </option>
+    <option
+      aria-label="test"
+      key="test"
+      value="test"
+    >
+      test
+    </option>
+  </select>
+</Fragment>
+`;

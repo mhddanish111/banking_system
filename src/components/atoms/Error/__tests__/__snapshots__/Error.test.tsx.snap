@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> should render the Error Component correctly 1`] = `
+<div
+  className="error-container"
+>
+  <span>
+    Something went wrong. Please try again
+  </span>
+  <span>
+    Something went wrong
+  </span>
+</div>
+`;

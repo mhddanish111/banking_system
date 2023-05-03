@@ -1,0 +1,12 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/spacing.scss";
+.account-dashboard-container {
+  .account-container {
+    @include tablet-and-over {
+      display: flex;
+    }
+  }
+  .card-section {
+      margin-top: $space-l;
+  }
+}

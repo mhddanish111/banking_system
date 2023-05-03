@@ -1,0 +1,31 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/fonts.scss";
+@import "../../../styles/mixins.scss";
+@import "../../../styles/spacing.scss";
+.account-container {
+    display: flex;
+    .transaction-handler {
+      display: flex;
+      justify-content: space-between;
+    }
+    .account-details-container {
+        display: flex;
+        background-color: $background-color_2;
+        padding: 20px;
+        @include mobile{
+          flex-direction: column;
+        }
+        .account-details-box {
+          @include desktop {
+            margin: $space-s;
+          }
+          @include tablet-and-under {
+              margin-top: $space-s;
+          }
+          word-wrap: break-word;
+        }
+        label {
+          font-weight: $font-weight-bold;
+        }
+      }
+}

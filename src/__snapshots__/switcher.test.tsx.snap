@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switcher /> renders Switcher Component 1`] = `
+<Suspense
+  fallback={<div />}
+>
+  <BrowserRouter>
+    <Routes>
+      <Route
+        element={<UNDEFINED />}
+        path="/"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/sign-up"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/dashboard"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/account"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/open-account"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/credit-card"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/credit-card-apply"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/profile"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/change-password"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="/create-account"
+      />
+      <Route
+        element={<UNDEFINED />}
+        path="*"
+      />
+    </Routes>
+  </BrowserRouter>
+</Suspense>
+`;

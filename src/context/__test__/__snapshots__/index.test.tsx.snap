@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Context AppContextWrapper 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dispatch": [Function],
+      "state": Object {
+        "accounts": Array [],
+        "cards": Array [],
+        "user": Object {},
+        "userProfile": Object {},
+      },
+    }
+  }
+/>
+`;

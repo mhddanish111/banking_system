@@ -1,0 +1,29 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/spacing.scss';
+.error-message-container {
+    text-align: center;
+    // margin: 0 ($space-l - $space-xxs);
+    margin-bottom: $space-xs;
+    padding: $space-xxs;
+    color: white;
+  .close-btn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .close-btn:hover {
+    color: black;
+  }
+  &.alert {
+    background-color: $color-error;
+  }
+  &.success {
+    background-color: $color-success;
+  }
+}

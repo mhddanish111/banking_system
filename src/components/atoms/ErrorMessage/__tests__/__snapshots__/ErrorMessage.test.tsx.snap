@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> should render the Error Component correctly 1`] = `
+<div
+  className="error-message-container "
+>
+  <div
+    className="message-container"
+  >
+    <span
+      className="close-btn"
+      onClick={[Function]}
+    >
+      ×
+    </span>
+    Something went wrong
+  </div>
+  <div
+    className="child-container"
+  >
+    <div />
+  </div>
+</div>
+`;
